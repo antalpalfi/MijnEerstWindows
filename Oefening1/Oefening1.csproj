@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FB72F1DB-54EF-4F46-95E8-6CDE5751B1EB}</ProjectGuid>
+    <ProjectGuid>{5F31D1F4-5596-45C5-AE9F-41302806D306}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MijnEerstWindows</RootNamespace>
-    <AssemblyName>MijnEerstWindows</AssemblyName>
+    <RootNamespace>Oefening1</RootNamespace>
+    <AssemblyName>Oefening1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
