@@ -30,11 +30,27 @@ namespace Oefening1
 
         private void btToevoegen_Click(object sender, EventArgs e)
         {
+
+
             ListBox.Items.Add(txtToevoegen.Text);
             txtToevoegen.Text = "";
             txtToevoegen.Focus();
-            
            
         }
+        private void buttonTest_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello World");
+        }
+
+        private void textBoxTest_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                buttonTest_Click(this, new EventArgs());
+            }
+        }
+
+
+
     }
 }

@@ -30,6 +30,7 @@ namespace Oefening2
             cmbBox.Items.Add("Akos");
             cmbBox.Items.Add("Kriszti");
             cmbBox.Items.Add("Piri");
+           
         }
 
         private void txtBox_TextChanged(object sender, EventArgs e)
